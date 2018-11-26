@@ -1,4 +1,4 @@
-* Start here if you do not have a preinstalled image *
+# Start here if you do not have a preinstalled image
 start with the latest raspbian lite (https://downloads.raspberrypi.org/raspbian_latest)
 
 write to the micro SD card (at least 8 GB, recommended type: SanDisk)
@@ -10,7 +10,7 @@ expand file system (https://www.raspberrypi.org/documentation/configuration/rasp
 sudo apt-get update
 sudo apt-get upgrade
 
-* Start here if you have a preinstalled and properly setup image *
+# Start here if you have a preinstalled and properly setup image
 
 sudo nano /etc/dphys-swapfile
 #change the CONF_SWAPSIZE from 100 to 2048:
@@ -33,7 +33,7 @@ sudo nano install-opencv.sh
 sudo ./install-opencv.sh
 #and grab a coffee, might take a while (1-2 hours)
 
-* checking python3 opencv installation *
+# How to check python3 opencv installation
 python3
 import cv2
 print(cv2.__version__)
