@@ -1,3 +1,5 @@
+# An easy way to install specific openCV version to Raspbian (Raspberry PI 3 B+)
+
 # Start here if you do not have a preinstalled image
 start with the latest raspbian lite (https://downloads.raspberrypi.org/raspbian_latest)
 
