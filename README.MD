@@ -69,3 +69,5 @@ python3
 import cv2
 print(cv2.__version__)
 ```
+you should get:
+3.4.2
